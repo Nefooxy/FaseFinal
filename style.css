@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+}
+nav{
+    background: #2C2C2C;
+    overflow: hidden;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    color: white;
+    float: left;
+    display: block;
+    padding: 0.9rem 1.1rem;
+}
+nav a{
+    color: white;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 0.9rem 1.1rem;
+}
+nav a:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+.link-atividade{
+    padding: 0.9rem 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.link-atividade:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}
+body {
+    font-size: 100%;
+    background: #DADADA;
+}
+h2{
+    padding: 0.9rem 1.1rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 2.25rem;
+    color: black;
+}
+h3{
+    padding: 0.9rem 1.1rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 1.25rem;
+    color: black;
+}
+h4{
+    padding: 0.9rem 1.1rem;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal;
+    font-size: 1rem;
+    color: black;
+}
+.conteudo{
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+.conteudo-escrito{
+    margin-right: 50%;
+    padding: 1.5rem;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300rem;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+.conteudo-escritop{
+    padding: 0.9rem 1.1rem;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300rem;
+    font-style: normal;
+    font-size: 0.75rem;
+}
+.alinhamento{
+    text-align: center;
+}
+.table{
+    margin-left: 67%;
+    margin-top: -14rem;
+    border: 0.1rem solid black;
+}
+.tabler{
+    padding: 0.9rem 1.1rem;
+}
+.audio{
+    padding: 0.9rem 1.1rem;
+}
+tbody td{
+    border: 0.1rem solid black;
+}
+.formato{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.midias{
+    width: auto;
+    height: auto;
+    overflow: scroll;
+}
+.midias .videos{
+    width: 900%;
+}
+.midias .videos iframe{
+    width: 11.07%;
+}
+.container{
+    background-color: white;
+    border-radius: 0.9rem;
+    margin: 0.9rem;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: 0 3px 5px rgba(0,0,0, 0.5);
+    overflow: hidden;
+    margin: auto;
+}
+.header{
+    background: linear-gradient(90deg, #2C2C2C,#202020);
+    padding: 1.3rem;
+    text-align: center;
+}
+.header h2{
+    color: white;
+}
+.formato{
+    padding: 1.3rem;
+    width: auto;
+}
+.form-content{
+    margin-bottom: 0.5rem;
+    padding-bottom: 1.3rem;
+    position: relative;
+}
+.form-content label{
+    display: inline-block;
+    margin-bottom: 0.2rem;
+}
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    border: 0.2rem solid #dfdfdf;
+}
+.form-content textarea{
+    display: block;
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    border: 0.2rem solid #dfdfdf;
+}
+.formato button{
+    background-color:#202020 ;
+    color: white;
+    width: 100%;
+    border-radius: 0.9rem;
+    padding: 0.5rem;
+    border: 0;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 0.9rem;
+}
+footer{
+    width: 100%;
+}
+#footer_content{
+    background: #2C2C2C;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3rem 3.5rem;
+}
+#footer_contacts h1{
+    margin-bottom: 0.75 rem;
+}
+footer h1{
+    color: white;
+}
+footer p{
+    color: white;
+}
+#footer_socialmedia{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#footer_socialmedia .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+#footer_socialmedia .footer-link:hover{
+    opacity: 0.8;
+}
+#footer_socialmedia .footer-link i{
+    font-size: 1.25rem;
+}
+#Instagram{
+    background: linear-gradient(#7f37c9,#ff2992,#ff9807);
+}
+#WhatsApp{
+    background: #25d366;
+}
+#Facebook{
+    background: #4267b3;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: white;
+    transition: all 0.5s;
+}
+.footer-list .footer-link:hover{
+    background-color: black;
+    color: white;
+}
+#footercopyright{
+    display: flex;
+    justify-content: center;
+    background-color: #202020 ;
+    color: white;
+}
+#Agradecimento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12.3rem;
+}
+
